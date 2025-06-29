@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>my portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Навыки</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Проекты</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Привет
+                </h1>
+                <p class="hero-subtitle">
+                    Я начинающий frontend разработчик, увлеченный созданием современных и отзывчивых веб-приложений
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                    <a href="#about" class="btn btn-secondary">Узнать больше</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-line">
+                        <span class="code-keyword">const</span> 
+                        <span class="code-variable">developer</span> = {
+                    </div>
+                    <div class="code-line">
+                        &nbsp;&nbsp;<span class="code-property">name</span>: 
+                        <span class="code-string">"Developer"</span>,
+                    </div>
+                    <div class="code-line">
+                        &nbsp;&nbsp;<span class="code-property">skills</span>: [
+                        <span class="code-string">"HTML"</span>, 
+                        <span class="code-string">"CSS"</span>, 
+                        <span class="code-string">"JavaScript"</span>],
+                    </div>
+                    <div class="code-line">
+                        &nbsp;&nbsp;<span class="code-property">passion</span>: 
+                        <span class="code-string">"Frontend Development"</span>
+                    </div>
+                    <div class="code-line">};</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Я начинающий frontend разработчик с базовыми знаниями в области веб-разработки. 
+                        Мне нравится изучать новые технологии и создавать интерактивные интерфейсы.
+                    </p>
+                    <p>
+                        В настоящее время я владею основами HTML, CSS и JavaScript, а также имею опыт работы 
+                        с Python и SQL. Планирую углубить свои знания в frontend разработке, изучив React и TypeScript.
+                    </p>
+                    <p>
+                        Мой подход к разработке основан на постоянном обучении и практике. 
+                        Я стремлюсь создавать чистый, читаемый код и изучать современные подходы к веб-разработке.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>0+</h3>
+                            <p>Лет опыта</p>
+                        </div>
+                        <div class="stat">
+                            <h3>0+</h3>
+                            <p>Проектов</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="status">В поиске работы</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Bogdan</h3>
+                        <p>Начинающий Frontend Developer</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS3</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Другие технологии</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React (планирую)</span>
+                                <span>0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="0"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>TypeScript (планирую)</span>
+                                <span>0%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="0"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-empty">
+                <div class="empty-state">
+                    <div class="empty-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <h3>Пока что проектов нет</h3>
+                    <p>Я активно изучаю технологии и скоро здесь появятся мои первые проекты</p>
+                    <div class="coming-soon">
+                        <span class="coming-soon-badge">Скоро</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Frontend Portfolio. Готов к работе!</p>
+                <div class="footer-social">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
